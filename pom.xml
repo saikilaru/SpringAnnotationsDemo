@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>SpringAnnotations</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringAnnotations</name>
 	<description>Spring Boot Annotations Demo project</description>
