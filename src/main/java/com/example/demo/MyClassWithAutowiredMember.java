@@ -34,6 +34,15 @@ public class MyClassWithAutowiredMember {
 		return "testing";
 	}
 	
+	@GetMapping("/list@Bean_instances")
+	public String[] listBeans() {
+        String[] allBeanNames = context.getBeanDefinitionNames();
+        for(String beanName : allBeanNames) {
+        	info(beanName);
+        }
+        return allBeanNames;
+	}
+	
 
 
 
